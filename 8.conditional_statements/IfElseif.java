@@ -12,6 +12,10 @@ public class IfElseif {
         }else{
             System.out.println(z);
         }
+
+        String value = x % 2==0?"Even":"Odd";
+        System.out.println(value);
+
     }
     
 }
